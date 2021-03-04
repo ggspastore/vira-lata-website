@@ -1,0 +1,16 @@
+{
+  "name": "vira-lata-website",
+  "version": "0.0.1",
+  "description": "Website for VIRA LATA Energy and Events brand",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "Javascript"
+  ],
+  "author": "Giovanni Garcia de Souza Pastore",
+  "license": "ISC"
+}
