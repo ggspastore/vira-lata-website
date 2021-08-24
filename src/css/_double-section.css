@@ -1,0 +1,49 @@
+.section__double {
+    color: #fff;
+    height: 1728px;
+    display: grid;
+    grid-template-columns: 4fr 1fr 4fr;
+    grid-template-rows: 7fr 1fr 7fr;
+    grid-template-areas: "a . b" ". c ." ". . d";
+    background-image: url(../images/vira-lata-cachorro-alegria-de-viver-liberdade-irreverencia-limpo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+  
+.grid-a {
+    grid-area: a;
+    top: 0;
+    padding-left: 8vw;
+    width: 30vw;
+}
+  
+.grid-a img {
+    width: 70%;
+    margin-top: -1vh;
+}
+  
+.grid-b {
+    grid-area: b;
+    padding-top: 30vh;
+    font-size: 1.2rem;
+}
+  
+.grid-c {
+    grid-area: c;
+    padding-top: 2vh;
+}
+  
+.grid-d {
+    grid-area: d;
+    padding-top: 30vh;
+    font-size: 1.2rem;
+}
+  
+.section__double-background {
+    width: 100%;
+}
+  
+.section__double h2 {
+    position: relative;
+}

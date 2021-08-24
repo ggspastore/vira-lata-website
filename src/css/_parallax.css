@@ -1,0 +1,19 @@
+.punks__parallax {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    background-image: url(../images/vira-lata-somos-punks-revolta-autoridades-protesto.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 10vh 0;
+}
+  
+.punks__parallax img {
+    width: 25vw;
+}

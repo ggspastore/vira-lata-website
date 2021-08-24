@@ -1,0 +1,34 @@
+.navbar {
+    position: absolute;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 3fr 8fr;
+    align-items: center;
+    top: 0;
+    padding: 0 2vw;
+    width: 100%;
+    height: 4rem;
+    color: #fff;
+}
+
+.navbar__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__link{
+    color: #FFF;
+}
+
+.navbar__link:hover {
+    color: var(--color-primary);
+}
+  
+.img-hover {
+    width: 1rem;
+}
+  
+.navbar__logo {
+    width: 5rem;
+}
