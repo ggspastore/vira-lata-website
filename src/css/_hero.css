@@ -1,0 +1,22 @@
+#slider {
+    color: #fff;
+}
+  
+.slide {
+    display: flex;
+    position: relative;
+}
+  
+.slide__copy {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0 5vw 5vh;
+    font-size: 1.5rem;
+    text-align: right;
+}
+  
+.slide__img--one {
+    width: 100%;
+    object-fit: cover;
+}

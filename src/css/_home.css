@@ -1,0 +1,120 @@
+.sctn--logo {
+    padding: 14vh 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+  }
+  
+.sctn--logo h2 {
+    font-size: 2.2rem;
+    padding-left: 10vw;
+    padding-top: 1rem;
+}
+  
+.sctn--logo img {
+    padding-right: 10vw;
+    width: 50vw;
+}
+  
+.vira-lata__behaviour {
+    background-image: url(../images/vira-lata-como-se-comportar-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+  
+.vira-lata__behaviour h2 {
+    display: flex;
+    object-position: left;
+    padding: 25vh 5vw;
+    color: #FFF;
+    text-align: center;
+}
+  
+.slide__no-shame--img {
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+}
+  
+.no-shame--copy {
+    position: relative;
+    display: flex;
+    padding: 30vh 12vw;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #FFF;
+}
+  
+.description {
+    background-image: url(../vectors/vira-lata-pata-de-cachorro-amarela.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+  
+.description p {
+    font-size: 1.4rem;
+    max-width: 23ch;
+    text-align: center;
+    padding-top: 10vh;
+}
+  
+.punks {
+    margin: 15vh 0 15vh 0;
+}
+  
+.dog-passion img {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+}
+  
+.dog-passion__copy {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    padding: 50vh 5vw 10vh;
+    font-size: 1.2rem;
+    color: #FFF;
+}
+  
+.can-silhouette {
+    margin: 15vh 25vw 0 25vw;
+}
+  
+.can-silhouette img {
+    width: 100%;
+}
+  
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10vh 0;
+    align-items: center;
+    text-align: center;
+}
+  
+.buttons img {
+    max-width: 25vw;
+}
+
+.vira-lata-way {
+    background-image: url(../images/vira-lata-jeito-vira-lata-de-ser.jpg);
+    object-fit: cover;
+    object-position: center;
+    width: 100vw;
+}
+  
+.vira-lata-way__div h3 {
+    position: relative;
+    display: flex;
+    padding: 30vh 10vw;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #FFF;
+}
+  

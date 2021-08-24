@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Kilogram;
+    src: url(./fonts/kilogram_kg-webfont.woff2);
+    font-weight: 100;
+}
+  
+* {
+    box-sizing: border-box;
+    padding: unset;
+    margin: unset;
+    border: unset;
+}
+  
+:root {
+    font-family: "Kilogram", sans-serif;
+    font-size: 41px;
+}
+  
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+  
+a {
+    text-decoration: none;
+}
+  
+body {
+    margin: 0;
+}
+  
+header,
+main,
+footer {
+    overflow-x: hidden;
+}
+  
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
